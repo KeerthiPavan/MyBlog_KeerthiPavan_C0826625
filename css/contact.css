@@ -1,0 +1,259 @@
+/* styles for the body of the pages */
+body {
+    background-color: #ffffff;
+  }
+  
+  #container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  nav {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5em;
+  }
+  
+  nav ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  nav li {
+    background-color: #1d1d1c;
+    border-radius: 2em;
+    margin: 0.3em;
+    padding: 0.4em;
+    list-style-type: none;
+  }
+  
+  nav li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  #imgbanner {
+    opacity: 0.5;
+  }
+  
+  .banner {
+    position: relative;
+  }
+  
+  .name {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+    color: #ff7979;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .name h1 {
+    color: #ff7979;
+    /* color: #ff6b6b */
+    /* color: #fc5c65; */
+  }
+ 
+  .desktop {
+    display: none;
+  }
+  
+  main {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 2em 0 2em 0;
+    opacity: 0.85;
+    background-color: #d24d57;
+    color: #ffffff;
+  }
+  
+  footer {
+      font-size: 0.7em;
+      text-align: center;
+      margin-top: 2em;
+      color: #ffffff;
+      background-color: #2a2a2a;
+  }
+  footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  #copyright {
+    float: left;
+    margin-top: 2em;
+    width: 80%;
+  }
+  
+    @media only screen and (min-width: 688px) {
+    /* styles specifies horizontal dispay for navigation links */
+  
+    header {
+      text-align: left;
+      background-color: #ffffff;
+    }
+  
+    nav {
+      float: right;
+      margin-top: -5em;
+      margin-right: -5em;
+      margin-bottom: 0;
+      width: 80%;
+    }
+  
+    nav ul {
+      margin: 0;
+      padding-left: 0.5%;
+      padding-right: 0.5%;
+    }
+  
+    nav li {
+      display: block;
+      float: left;
+      width: 18%;
+      margin-left: 1%;
+      margin-right: 1%;
+      padding-left: 0;
+      padding-right: 0;
+      white-space: nowrap;
+      border-radius: 0;
+      background-color: transparent;
+    }
+  
+     nav li a {
+      display: inline-block;
+      padding: 1em;
+    }
+  
+    nav li a:link {
+      color:black;
+    }
+  
+    nav li a:visited {
+      color: #2323a0;
+    }
+  
+    nav li a:hover {
+      font-style: italic;
+      color: #470832;
+    }
+  
+    nav li a:active {
+      color: #e27023;
+    }
+  
+    main {
+      clear: left;
+      /* margin-top: 4em; */
+      border-radius: 0;
+      overflow: auto;
+      background-color: #d24d57;
+      color: #ffffff;
+    }
+  
+    h1 {
+      text-align: center;
+    }
+  
+   
+    .desktop {
+      display: block;
+    }
+  
+    .equip {
+      display: block;
+      float: left;
+      margin-right: 1.5em;
+    }
+  
+    .items {
+      display: block;
+      list-style-position: inside;
+    }
+  
+    .title-equip {
+      clear: left;
+      padding-top: 0.5em;
+    }
+  
+   
+  @media only screen and (min-width: 999px) {
+    #container {
+      background-color: #ffffff;
+    }
+  
+    header {
+      text-align: left;
+      background-color: #ffffff;
+    }
+    nav {
+      float: right;
+      margin-top: -5em;
+      margin-right: -5em;
+      margin-bottom: 0;
+      width: 50%;
+    }
+  
+    nav ul {
+      margin: 0;
+      padding-left: 0.5%;
+      padding-right: 0.5%;
+    }
+  
+    nav li {
+      margin-left: 0;
+      margin-right: 1em;
+      padding: 0;
+      width: 20%;
+    }
+  
+    nav li a {
+      display: inline-block;
+      padding: 0.7em;
+    }
+  
+    nav li a:link {
+      color: teal;
+    }
+  
+    nav li a:visited {
+      color: #2323a0;
+    }
+  
+    nav li a:hover {
+      font-style: italic;
+      color: #470832;
+    }
+  
+    nav li a:active {
+      color: #e27023;
+    }
+  
+    main {
+      background-color: #FFB695;
+      color: #000000;
+      text-align: center;
+    }
+    
+    footer {
+      background-color: #2a2a2a;
+      margin-top: 10em;
+      padding: 1em;
+      overflow: auto;
+    }
+  
+   
+  }

@@ -1,0 +1,420 @@
+/* styles for the body of the pages */
+body {
+    background-color: #ffffff;
+  }
+  
+  
+header {
+  text-align: center;
+}
+  
+nav {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5em;
+}
+  
+nav ul {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+  
+nav li {
+  background-color: #1d1d1c;
+  border-radius: 2em;
+  margin: 0.3em;
+  padding: 0.4em;
+  list-style-type: none;
+}
+  
+  nav li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  #imgbanner {
+    opacity: 0.5;
+  }
+  
+  .banner {
+    position: relative;
+  }
+  
+  .name {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+    color: #ff7979;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .name h1 {
+    color: #ff7979;
+    /* color: #ff6b6b */
+    /* color: #fc5c65; */
+  }
+  
+  
+  /* styles for the desktop class */
+  .desktop {
+    display: none;
+  }
+  
+  main {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 2em 0 2em 0;
+    opacity: 0.85;
+    background-color: #ffffff;
+  }
+
+  .info #about {
+      background-color: #FFB695;
+      padding: 1em;
+      margin-top: -0.5em;
+      font-size: 2em;
+      color: black;
+  }
+
+  .info #education {
+    background-color: #FFB695;
+      padding: 1em;
+      margin-top: 1em;
+      font-size: 2em;
+      color: black;
+  }
+
+  .info #hobbies {
+    background-color: #FFB695;
+      padding: 1em;
+      margin-top: 1em;
+      font-size: 2em;
+      color: black;
+  }
+
+  .info p {
+    font-size: 1em;
+    text-align: justify;
+    margin: 1em;
+    line-height: 2em;
+  }
+
+  /* styles for the table element */
+  table {
+    background-color: #ffffff;
+    border: 0.1em solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: -1em;
+  }
+
+  th,td {
+    border: 0.1em solid #000000 ;
+    padding: 1em;
+  }
+  th {
+    background-color: #1d1d1c;
+    color: #ffffff;
+  }
+  caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    color: #ffffff;
+  }
+  
+  /* styles for the footer */
+  footer {
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 2em;
+    color: #ffffff;
+  }
+  
+ 
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+#copyright {
+    float: left;
+    margin-top: 2em;
+    width: 80%;
+  }
+  
+  #social {
+    float: right;
+    width: 20%;
+  }
+  
+  #social img {
+    padding: 0.5em;
+  }
+
+  nav {
+    float: right;
+    margin-top: -5em;
+    margin-right: -5em;
+    margin-bottom: 0;
+    width: 80%;
+  }
+
+  nav ul {
+    margin: 0;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+  }
+
+  nav li {
+    display: block;
+    float: left;
+    width: 18%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    white-space: nowrap;
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+   nav li a {
+    display: inline-block;
+    padding: 1em;
+  }
+
+  /* when the link is not visited */
+  nav li a:link {
+    color:black;
+  }
+
+  /* when the link is visited */
+  nav li a:visited {
+    color: #2323a0;
+  }
+
+  /* pseudo class when hoverin over link */
+  nav li a:hover {
+    font-style: italic;
+    color: #470832;
+  }
+
+  /* when the links are active */
+  nav li a:active {
+    color: #e27023;
+  }
+
+  /* styles for main */
+  main {
+    clear: left;
+    margin-top: 0em;
+    border-radius: 0;
+    overflow: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  /* styles for equip class */
+  .equip {
+    display: block;
+    float: left;
+    margin-right: 1.5em;
+  }
+
+  .items {
+    display: block;
+    list-style-position: inside;
+    color: black;
+    margin-bottom: 5em;
+  }
+
+  .title-equip {
+    clear: left;
+    padding-top: 0.5em;
+    color: black;
+  }
+
+  
+  section {
+    padding-bottom: 3em;
+  }
+
+  section h1 {
+    text-align: left;
+    clear: left;
+  }
+
+  section a {
+    background-color: transparent;
+    color: #1d1d1c;
+    font-weight: normal;
+    padding: 0;
+    text-decoration: underline;
+  }
+
+  .contact {
+    background-color: transparent;
+    color: #1d1d1c;
+    text-decoration: underline;
+    padding: 0;
+  }
+
+  
+  header {
+    text-align: left;
+    background-color: #ffffff;
+  }
+
+  /* styles for nav */
+  nav {
+    float: right;
+    margin-top: -5em;
+    margin-right: -5em;
+    margin-bottom: 0;
+    width: 50%;
+  }
+
+ 
+  nav li {
+    margin-left: 0;
+    margin-right: 1em;
+    padding: 0;
+    width: 20%;
+  }
+
+  nav li a {
+    display: inline-block;
+    padding: 0.7em;
+  }
+
+  
+  .divbg {
+    background: #eae8e8;
+    border-radius: 500px;
+    height:100px;
+    width:100px;
+    margin: auto;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.icon {
+    width: 100;
+    height:100;
+  
+}
+.col-container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+
+  div.colcontainer {
+    display: flex;
+    width: 100%;
+    }
+    
+    div.polaroid {
+      width: 80%;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 15px;
+    }
+    
+    div.column {
+      float: left;
+      width: 33.33%;
+      padding: 15px;
+      margin: 15px;
+    }
+    
+    div.txtcontainer {
+      text-align: center;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+
+    div.txtcontainer ul li {
+      list-style-type: square;
+      text-align: left;
+      margin-bottom: 1em;
+      font-size: 1.2em;
+      list-style-position: outside;
+    }
+
+    div.txtcontainer ul li a:link {
+        color: teal;
+    }
+    
+    div.txtcontainer ul li a:visited {
+      color: #2323a0;
+  }
+
+  div.txtcontainer ul li a:hover {
+    font-style: italic;
+    color: #470832;
+  }
+
+  div.txtcontainer ul li a:active {
+    color: #e27023;
+  }
+
+  footer {
+    background-color: #2a2a2a;
+    margin-top: -0.2em;
+    padding: 2em;
+    overflow: auto;
+  }
+
+  .contact {
+    color: #ffffff;
+  }
+
+  article h2 {
+    color: #000000;
+  }
+
+  article p {
+    color: #000000;
+  }
+
+  table {
+    background-color: #ffffff;
+    width: 90%;
+  }
+
+  caption {
+    color: #ffffff;
+  }
+  form {
+    background-color: #ffffff;
+    padding: 1em;
+  }
+
+  form p {
+    color: #000000;
+  }
+
+ 
+}
+  
